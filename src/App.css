@@ -7,6 +7,40 @@
   pointer-events: none;
 }
 
+.title{
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #282c34;
+}
+.start{
+  height:80px;
+  width:80px;
+  border-radius: 50%;
+  color: black;
+  background-color: green;
+  margin:20px;
+}
+.stop{
+  height:80px;
+  width:80px;
+  border-radius: 50%;
+  color: black;
+  background-color: red;
+  margin:20px;
+}
+.reset{
+  height:80px;
+  width:80px;
+  border-radius: 50%;
+  color: black;
+  background-color: orange;;
+  margin:20px;
+}
+
+.start:disabled{
+  background-color: gray;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
